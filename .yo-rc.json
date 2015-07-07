@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Typescript and Angular2",
+    "packageVersion": "0.0.1",
+    "revealTheme": "night",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "douglas-mason",
+    "githubRepository": "presentation-typescript-ng2"
+  }
+}
