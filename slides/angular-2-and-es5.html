@@ -1,0 +1,23 @@
+<h2>Angular 2 and ES5</h2>
+
+<h3>Components</h3>
+<pre>
+    <code data-trim>
+// ES5
+function DisplayComponent() {
+  this.myName = "Alice";
+}
+DisplayComponent.annotations = [
+  new angular.ComponentAnnotation({
+    selector: "display"
+  }),
+  new angular.ViewAnnotation({
+    template:
+       '<p>My name: {{ myName }}</p>'
+  })
+];
+    </code>
+</pre>
+
+<aside class="notes">
+</aside>
