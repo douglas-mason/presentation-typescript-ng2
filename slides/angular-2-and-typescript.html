@@ -1,0 +1,48 @@
+<h2>Angular 2 and Typescript</h2>
+<h3>Components</h3>
+
+<pre>
+    <code data-trim>
+    // TypeScript
+    import {Component, View, bootstrap} from 'angular2/angular2';
+    @Component({
+      selector: 'display'
+    })
+    @View({
+      template: `
+       <p>My name: {{ myName }}</p>
+      `
+    })
+    class DisplayComponent {
+      myName: string;
+      
+      constructor() {
+        this.myName = "Alice";
+      }
+    }
+    </code>
+</pre>
+
+<pre>
+    <code data-trim>
+// ES5
+function DisplayComponent() {
+  this.myName = "Alice";
+}
+DisplayComponent.annotations = [
+  new angular.ComponentAnnotation({
+    selector: "display"
+  }),
+  new angular.ViewAnnotation({
+    template:
+       '<p>My name: {{ myName }}</p>'
+  })
+];
+    </code>
+</pre>
+
+
+
+<aside class="notes">
+    Refer to modules, interpolation, constructor
+</aside>

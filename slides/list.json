@@ -3,5 +3,9 @@
     "whats-typescript.html",
     "why-typescript.html",
     "why-typescript-continued.html",
-    "how-to-typescript.html"
+    "how-to-typescript.html",
+    "features-of-typescript.html",
+    "mixins.html",
+    "angular-2-and-typescript.html",
+    "angular-2-and-es5.html"
 ]
