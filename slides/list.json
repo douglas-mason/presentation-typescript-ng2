@@ -7,5 +7,7 @@
     "features-of-typescript.html",
     "mixins.html",
     "angular-2-and-typescript.html",
-    "angular-2-and-es5.html"
+    "multiline-template-strings.html",
+    "3rd-party-libs-and-definition-files.html",
+    "tsd.html"
 ]

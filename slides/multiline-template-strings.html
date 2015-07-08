@@ -1,0 +1,29 @@
+<h2>Multiline Template Strings</h2>
+
+<pre>
+    <code data-trim>
+    //Typescript
+    template: `
+      <p>My name: {{ myName }}</p>
+      <p>Friends:</p>
+      <ul>
+         <li *ng-for="#name of names">
+            {{ name }}
+         </li>
+      </ul>
+    `,
+    </code>
+</pre>
+<pre>
+    <code data-trim>
+//ES5
+template:
+  '<p>My name: {{ myName }}</p>' +
+  '<p>Friends:</p>' +
+  '<ul>' +
+  '<li *ng-for="#name of names">' +
+  '{{ name }}' +
+  '</li>' +
+  '</ul>',
+    </code>
+</pre>
