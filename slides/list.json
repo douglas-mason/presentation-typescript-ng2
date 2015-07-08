@@ -1,1 +1,7 @@
-["index.md"]
+[
+    "index.md",
+    "whats-typescript.html",
+    "why-typescript.html",
+    "why-typescript-continued.html",
+    "how-to-typescript.html"
+]

@@ -1,10 +1,4 @@
 
 # Typescript and Angular2
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+You won't learn anything form this talk...
